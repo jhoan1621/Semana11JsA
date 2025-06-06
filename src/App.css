@@ -1,0 +1,22 @@
+/* Estilos simples para nuestra app */
+.App {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px 10px;
+}
+
+/* Mejoramos el diseño de la tarjeta */
+.card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* Ajustamos el título para móviles */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+}
